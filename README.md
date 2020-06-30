@@ -12,10 +12,12 @@ Open the file in append mode (‘a’). Write cursor points to the end of file.
 Append ‘\n’ at the end of the file using write() function
 Append the given line to the file using write() function.
 Close the file
+look at addText
 
 another way File access mode ‘a+’, creates opens the file for both read and writing. Also if file it doesn’t exist, and then it creates the file too.
 Initially, both read & write cursors will be pointing to the end of the file. We moved the read cursor to the top of file to check if the file is empty or not.
 If the file is not empty, then append ‘\n’ at the end of the file first and then append the line.
+look at addtext2
 
 the two example will find it in code right there.... 
 for more information you can visit this page https://thispointer.com/how-to-append-text-or-lines-to-a-file-in-python/
